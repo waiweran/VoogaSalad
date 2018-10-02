@@ -1,0 +1,182 @@
+/**
+ * CSS file for styling the Editor
+ * @author Harry Liu
+ * @version 04-25-2017
+ */
+ 
+ /**
+ * General Buttons
+ */
+.button {   
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-background-insets: 0;
+}
+
+.button:hover {
+    -fx-background-color: -fx-shadow-highlight-color;
+    -fx-background-radius: 0, 0, 0, 0;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+ /**
+  * SplashScreen Styling
+  */
+#SplashButtons .button {
+	-fx-background-color: #FFD700;
+	-fx-font-size: 20pt;
+	-fx-font-family: Consolas;
+	-fx-text-fill: black;
+	-fx-background-insets: 0,1,1;
+	-fx-pref-width:200;
+}
+
+#SplashButtons .button:hover {
+	 -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 2 );
+}
+
+/**
+ * Menu-Bar Styling
+ */
+.menu-bar {
+    -fx-background-color:  linear-gradient(#686868 0%, #232723 25%, #373837 75%, #1d1d1d 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#9d9e9d 0%, #6b6a6b 20%, #343534 80%, #242424 100%),
+        linear-gradient(#8a8a8a 0%, #6b6a6b 20%, #343534 80%, #262626 100%);
+    -fx-selection-bar: #020b02;
+}
+
+.menu-bar .label {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+}
+
+.menu-item .label { 
+  	-fx-font-size: 14pt;
+  	-fx-font-family: "Segoe UI Light";
+  	-fx-text-fill: black;
+}
+
+.menu-item:focused {
+     -fx-background-color: #1d1d1d;
+}
+
+.menu-item:focused .label {
+     -fx-text-fill: #FFFF99;
+}
+
+#SwitchButton{
+	-fx-min-height:33px;
+	-fx-min-width: 33px;
+	-fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+}
+
+
+/**
+ * Side Menu Styling
+ */
+.tab-header-background{
+	-fx-background-color:#999999;
+}
+
+.tab{
+	 -fx-background-color: #e6e6e6;
+	 -fx-background-insets: 0 1 0 1,0,0;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.titled-pane > .title {
+    -fx-alignment: CENTER;
+    -fx-padding: 10px ;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color:
+    	linear-gradient(#9a9a9a, #909090),
+        linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+        
+}
+
+#sidemenu{
+	-fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 60% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+}
+
+#sidemenu .titled-pane{
+	-fx-background-color:#DCDCDC;
+}
+
+#acordian{
+	-fx-background-color:#F7F5E6;
+	-fx-padding: 10;
+}
+
+.combo-box{
+	-fx-background-color: #ffbbbb;
+	}
+
+#AttributesMenu{
+	-fx-background-color: #999999;
+	-fx-alignment:center;
+}
+
+#AttributesMenu .label{
+	-fx-font-size: 10pt;
+	-fx-pref-width: 115px;
+  	-fx-font-family: "Segoe UI Light";
+  	-fx-text-fill: black;
+}
+
+#AttributesHeader{
+	-fx-font-size: 18pt;
+	-fx-padding: 4px;
+  	-fx-font-family: "Segoe UI Light";
+  	-fx-fill: white;
+}
+
+/**
+ * Goals Styling
+ */
+.text-area, .text-field {
+  	-fx-font-family: Consolas;
+  	-fx-highlight-fill: #001A57;
+  	-fx-highlight-text-fill: #FFFFFF;
+  	-fx-text-fill: #001A57;
+  	-fx-background-color: #d3d3d3;
+  	-fx-border-color: #001A57;
+}
+
+#GoalTitle{
+	-fx-font-size: 12pt;
+	-fx-font-family: Consolas;
+	-fx-text-fill: white;
+}
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-border-color: #001A57;
+}
+
+#GoalsBackground {
+	-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #50A6C2, #001A57);
+}
+
+.root { -fx-focus-color: transparent; }

@@ -1,0 +1,31 @@
+/**
+ * CSS file for styling the LoadMenu
+ * @author Harry Liu
+ * @version 04-25-2017
+ */
+
+ .button {
+	-fx-font-size:18.5 px;
+    -fx-text-fill:black;
+    -fx-font-family:"Helvetica";
+    -fx-background-color: 
+   		#3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-max-width:400px;
+    -fx-max-height:50px;
+}
+
+.label{
+	-fx-font-size:75 px;
+	-fx-text-fill:white;
+	-fx-font-weight:bold;
+}
+
+.scroll-pane .viewport {
+       -fx-background-color: transparent;
+}
+
+.scroll-pane {
+   -fx-background-color: transparent;
+}

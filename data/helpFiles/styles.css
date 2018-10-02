@@ -1,0 +1,221 @@
+/**
+ * Styling for Help Page
+ * @author Harry Liu
+ * @version 05-1-2017
+ */
+@charset "UTF-8";
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1  {
+	font-size: 2.5em;
+	font-family: league-gothic;
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: 0 0 #222325;
+	margin-top: auto;
+	color: #001A57;
+	padding-left: auto;
+	padding-right: auto;
+}
+h2 {
+	font-family: bitter;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.7em;
+	color: #001A57;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 1%;
+}
+.row h3 {
+	font-family: lato;
+	margin: 2%;
+	font-size: x-large;
+	color: #FFFFFF;
+	font-weight: 425;
+	text-align: center;
+}
+.rowalternate h3 {
+	font-family: lato;
+	margin: 2%;
+	font-size: x-large;
+	color: #222325;
+	font-weight: 425;
+	text-align: center;
+}
+p {
+	font-family: lato;
+	font-style: normal;
+	font-weight: 400;
+	font-size: large;
+	text-align: center;
+	color: #800000;
+	margin:0;
+	padding-bottom: 20px;
+}
+img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+a img {
+	display: inline;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-bottom: 0px;
+	font-size: x-large;
+}
+
+.music {
+    font-style: italic;
+}
+
+.music:hover {
+    text-decoration: underline;
+}
+
+body {
+	font-family: lato;
+	font-style: normal;
+	font-weight: 400;
+	background-size: cover;
+	background-color: #F7F5E6;
+	background-attachment: fixed;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav   {
+	background-color: #0F1626;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+}
+footer {
+	color: white;
+	background-color: #0F1626;
+	text-align: center;
+	font-size: small;
+	padding: 2%;
+}
+.title {
+	text-align: center;
+	color: #001A57;
+	font-family: cabin;
+	font-style: normal;
+	font-weight: 600;
+	margin-bottom: auto;
+	margin-top: auto;
+	font-size: 45px;
+}
+.contact {
+	margin: auto;
+	text-align: center;
+	-webkit-box-shadow: 0px px;
+	box-shadow: 0px px;
+}
+.navHome {
+	margin-left: 3%;
+	margin-right: 3%;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	text-align: center;
+}
+.navPortfolio {
+	margin-left: 3%;
+	margin-right: 3%;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	text-align: center;
+}
+.navResume {
+	margin-left: 3%;
+	margin-right: 3%;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	text-align: center;
+}
+.navHome:hover {
+	color: #FFFACD;
+	font-style: normal;
+	border-bottom: thin ridge #FFFFFF;
+}
+.navResume:hover {
+	color: #FFFACD;
+	font-style: normal;
+	border-bottom: thin ridge #FFFFFF;
+}
+.navPortfolio:hover {
+	color: #FFFACD;
+	font-style: normal;
+	border-bottom: thin ridge #FFFFFF;
+}
+.headshot {
+	float: none;
+	margin: 1% auto;
+	box-shadow: 2px 2px #000000;
+}
+.row  {
+	background-size: cover;
+	border-radius: 2.5px;
+	background-repeat: no-repeat;
+	padding-top: 25px;
+	padding-bottom: 35px;
+	background-color: #52658F;
+}
+.rowalternate, .firstrow  {
+	background-size: cover;
+	border-radius: 2.5px;
+	background-repeat: no-repeat;
+	padding-top: 25px;
+	padding-bottom: 35px;
+	background-color: #FFFFFF;
+}
+
+.main {
+	background-color: #FFFFFF;
+}
+.top {
+	font-size: medium;
+	color:white;
+}
+.top:hover {
+	color: #FFFFFF;
+	font-style: normal;
+	border-bottom:thin ridge #FFFFFF;
+}
+.foot {
+	color:white;
+	font-size: medium;
+}
+nav a {
+	font-size: x-large;
+}
+.rowtext {
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+.rowimage  {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+    .firstrow .rowtext{
+        font-size: 1.5em;
+        }
+        

@@ -1,0 +1,19 @@
+<general.entities.EntityTypeCollection>
+  <entityTypes class="list">
+    <general.entities.EntityType>
+      <name>BigBounce</name>
+      <type>Type</type>
+      <subType>Sub-Type</subType>
+    </general.entities.EntityType>
+    <general.entities.EntityType>
+      <name>Bouncer</name>
+      <type>Type</type>
+      <subType>Sub-Type</subType>
+    </general.entities.EntityType>
+    <general.entities.EntityType>
+      <name>Entity</name>
+      <type>Type</type>
+      <subType>Sub-Type</subType>
+    </general.entities.EntityType>
+  </entityTypes>
+</general.entities.EntityTypeCollection>

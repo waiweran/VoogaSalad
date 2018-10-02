@@ -1,0 +1,54 @@
+/**
+ * CSS file for styling the PopUpMenu
+ * @author Harry Liu
+ * @version 04-25-2017
+ */
+
+.label {
+    -fx-font-size: 20pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+}
+
+#nav  {
+	-fx-background-color:gainsboro;
+}
+
+#nav .button {
+	-fx-background-color: gainsboro;
+	-fx-background-radius:0;
+    -fx-border-radius:0;
+}
+
+#nav .button:hover {
+    -fx-background-color: linear-gradient(yellow, orange);
+    -fx-background-radius:0;
+    -fx-border-radius:0;
+}
+
+#menu {
+	-fx-background-color: darkgrey;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#Test .button{
+	-fx-background-color: 
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+#HeadsUP{
+	-fx-background-color: gainsboro; 
+	-fx-background-radius: 10;
+}
+
+#Test{
+	-fx-padding: 12 30 12 30;
+}
